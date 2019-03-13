@@ -1,0 +1,184 @@
+.p_head_bg{
+    width: 100%;
+    height: 81px;
+    box-shadow: 0 0  10px rgba(0,0,0,0.2);
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+#box-banner,#box-content{
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.p_head_banner{
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+    margin-top: 81px;
+}
+.p_head{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.p_head_logo{
+    float: left;
+    position: relative;
+    width: 192px;
+    height: 41px;
+    margin-top: 20px;
+}
+
+.p_head_title{
+    float: right;
+    position: relative;
+}
+.head_title_ul{
+    overflow: hidden;
+    float: left;
+}
+.head_title_ul li:not(.fuwu_li){
+    display: inline-block;
+}
+.head_title{
+    padding: 30px 20px;
+    color: #333333;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.language_div{
+    border: #d2d4d7 1px solid;
+    font-size: 14px;
+    padding: 2px 10px;
+    color: #555;
+    margin-top: 27px;
+    margin-left: 20px;
+    float: right;
+}
+
+.language_div i {
+    float: left;
+    padding: 4px 6px 0 0;
+}
+
+#lag{
+    float: left;
+    padding: 2px 6px 0 0;
+}
+.lagli1{
+    color: #555555;
+}
+.lagli1:hover{
+    color: #009ae1;
+}
+.lagli2{
+    color: #555555;
+    background-color: #fff;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    border-radius: 3px;
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    z-index: 9999;
+    left: 10px;
+    top: 24px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.yuanjiao{
+    margin-top: 27px;
+    margin-left: 20px;
+    color: #555555;
+    font-size: 14px;
+    border: 1px solid #d2d4d7;
+    border-radius: 20px;
+    padding: 2px 10px;
+    position: relative;
+}
+
+.head_title:hover,.language_div:hover{
+    color: #009ae1;
+    display: block;
+}
+
+.fuwu{
+    display: none;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.service:hover .fuwu{
+    display: block;
+}
+
+.research:hover .fuwu{
+     display: block;
+}
+.samplelibrary:hover .fuwu{
+    display: block;
+}
+
+.fuwu a{
+    color: #555555;
+    position:relative;
+    padding: 14px 50px 14px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    text-align: left;
+    display: block;
+}
+.fuwu a:hover{
+    color: #009ae1;
+}
+
+.content_bg_left{
+    width: 60%;
+    height: 700px;
+    background-color: #F7F7F7;
+    float: left;
+}
+.content_bg_right{
+    width: 40%;
+    height: 700px;
+    background-color: #3E8DDC;
+    float: right;
+}
+
+.content_div{
+    width: 1200px;
+    margin: 0 auto;
+    height: 700px;
+    background-color: #aa2233;
+    position: relative;
+    z-index:1;
+}
+
+.content_div_left{
+    width: 60%;
+    height: 700px;
+    position: relative;
+    background-color: #333333;
+    float: left;
+    z-index:2;
+}
+
+.content_div_right{
+    width: 40%;
+    height: 700px;
+    background-color: #668811;
+    position: relative;
+    float: right;
+    z-index:2;
+}
