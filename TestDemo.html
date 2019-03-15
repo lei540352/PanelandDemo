@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            ul, li, ol {
+                list-style: none;
+            }
+            
+            .nav-list {
+                width: 600px;
+                margin: 0 auto;
+            }
+            
+            .nav-list > li {
+                display: inline-block;
+                margin: 5px -3px;
+                padding: 3px 15px;
+                position: relative;
+            }
+            
+            .nav-list > li:before {
+                content: '';
+                position: absolute;
+                bottom: 0px;
+                width: 0;
+                left: 50%;
+                border-bottom: 2px solid red;
+                transition: 0.2s all linear;
+            }
+            
+            .nav-list > li:hover::before {
+                left: 0;
+                width: 100%;
+                
+            }
+            
+            .nav-list > li:hover + li::before {
+                left: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="nav-list">
+            <li>epc监控</li>
+            <li>omc监控</li>
+            <li>Boss监控</li>
+            <li>Boss计费</li>
+        </ul>
+    </body>
+</html>
