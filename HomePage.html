@@ -3,21 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <title>上海派诺市场调查咨询有限公司</title>
-         <!--标题图片 -->
+        <!--标题图片 -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <style>
             /* CSS Document */
             body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, span,
-            em{margin:0;padding:0; font-family:微软雅黑, Helvetica, sans-serif;}
-            body, button, input, select, textarea {font:12px/1.5  arial; }
-            h1, h2, h3, h4, h5, h6,address, cite, dfn, em, var {font-style:normal; font-size:12px; font-weight:normal;}
-            code, kbd, pre, samp {font-family:微软雅黑, Helvetica, sans-serif;}
-            img{border:none;}
-            *{margin:0;padding:0;list-style-type:none;}
-            a,img{border:0;text-decoration:none;}
+            em {
+                margin: 0;
+                padding: 0;
+                font-family: 微软雅黑, Helvetica, sans-serif;
+            }
+            
+            body, button, input, select, textarea {
+                font: 12px/1.5 arial;
+            }
+            
+            h1, h2, h3, h4, h5, h6, address, cite, dfn, em, var {
+                font-style: normal;
+                font-size: 12px;
+                font-weight: normal;
+            }
+            
+            code, kbd, pre, samp {
+                font-family: 微软雅黑, Helvetica, sans-serif;
+            }
+            
+            img {
+                border: none;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            
+            a, img {
+                border: 0;
+                text-decoration: none;
+            }
         </style>
         <script src="https://www.diaoyanbang.com/PUBLIC/Home/js/jquery.js"></script>
         <link rel="stylesheet" type="text/css" href="p_css/homepagecss.css">
+        <script language="javascript" type="text/javascript" src="p_js/homepagejs.js"></script>
     </head>
     <body>
         <div class="p_head_bg">
@@ -26,7 +54,10 @@
                     <a class="head_logo" href="#" target="_self"><img src="images/logo.jpg" class="head_logoimg"></a>
                 </div>
                 <div class="p_head_title">
-                    <ul  class="head_title_ul">
+                    <div id="menu-line" style="width: 78px;left: 0px;">
+                    
+                    </div>
+                    <ul class="head_title_ul">
                         <li><a class="head_title" href="#" target="_self">首页</a></li>
                         <li class="service">
                             <a class="head_title" href="#" target="_self">服务</a>
@@ -47,14 +78,14 @@
                         </li>
                         <li><a class="head_title" href="#" target="_self">案例分享</a></li>
                         <li class="research">
-                            <a class="head_title" href="#" target="_self" >调研工具</a>
+                            <a class="head_title" href="#" target="_self">调研工具</a>
                             <div class="fuwu">
                                 <a href="#">编程系统</a>
                                 <a href="#">在线调研社区</a>
                             </div>
                         </li>
                         <li><a class="head_title" href="#" target="_self">联系我们</a></li>
-                        
+                    
                     </ul>
                     <div class="language_div yuanjiao">
                         <i><img src="images/ico_lang.png" width="14" height="14"></i>
@@ -63,13 +94,17 @@
                             <li style="display: none"><a href="#" class="lagli2">English</a></li>
                         </ul>
                         <script>
-                        $(function(){
-                            $("#lag li").eq(1).hide();
-                            $("#lag").hover(
-                                function(){$("#lag li").eq(1).show();},
-                                function(){$("#lag li").eq(1).hide();}
-                            );
-                        });
+                            $(function () {
+                                $("#lag li").eq(1).hide();
+                                $("#lag").hover(
+                                    function () {
+                                        $("#lag li").eq(1).show();
+                                    },
+                                    function () {
+                                        $("#lag li").eq(1).hide();
+                                    }
+                                );
+                            });
                         </script>
                     </div>
                 </div>
@@ -86,9 +121,288 @@
             <div class="content_bg_right">
             </div>
             <div class="content_div">
-                <div class="content_div_left">
+                <div class="content_view">
+                    <div class="content_div_left">
+                        <div style="width:80%;">
+                            <span class="txt-title">
+                            派诺，<br>在线样本&市场调查解决方案提供商。
+                            </span>
+                            
+                            <hr style="height: 2px;width: 100px;background-color: #e7e7e7;margin-top: 30px;margin-bottom: 40px">
+                            <span class="txt-content">
+                            派诺市场调查咨询有限公司自2011年成立以来，作为
+                            <br>
+                            ESOMAR，InsightsAssociation，JMRA，CMRA等国际及本土调研协会的成员，本着以技术为核心，服务为价值的理念迅速成长。<br>
+                            至今在线样本库已覆盖全球三十几个国家，每年为超过三百家客户成功交付8000多项目。
+                            业务范围由在线样本的交付扩展到
+                            <a href="#" class="txt-a">问卷编程</a>，
+                            <a href="#" class="txt-a">在线社区</a>，
+                            <a href="#" class="txt-a">可视化报告</a>，
+                            <a href="#" class="txt-a">样本招募</a>，
+                            <a href="#" class="txt-a">软件及游戏测试</a>，等相关多领域。
+                        </span>
+                        </div>
+                    </div>
+                    <div class="content_div_right">
+                        <div class="content_right_text1">
+                            <span>
+                                <p class="txt-num">30</p>
+                                <em>+</em>
+                            </span>
+                            <small>在线样本覆盖全球30+国家</small>
+                        </div>
+                        <div class="content_right_text2">
+                            <span>
+                                <p class="txt-num">300</p>
+                                <em>+</em>
+                            </span>
+                            <small>全球客户超过300家</small>
+                        </div>
+                        <div class="content_right_text3">
+                            <span>
+                                <p class="txt-num">8000</p>
+                                <em>+</em>
+                            </span>
+                            <small>年度项目成功交付8000+</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="content_div_right">
+            </div>
+        </div>
+        <div id="box-professionalteam">
+            <div class="professionalteam">
+                <div class="teamdiv">
+                    <p class="professionalteam-txt1">
+                        专业的团队
+                    </p>
+                    <span class="professionalteam-txt2">
+                        派诺的核心团队由各领域的精英组成。<br>
+                        他们具有丰富的项目经验，前沿的互联网技术实力和产品开发能力。<br>
+                        在服务客户的同时提供独到的见解。
+                    </span>
+                </div>
+            </div>
+            <div class="data-type">
+                <div style="width: 100%;float: left;padding: 30px 0"><h1 style="font-size: 30px;color: black">
+                    为什么选择派诺？</h1></div>
+                <div class="data_type_box" style="background-color: #fcfcfc">
+                    <p>您的全球数据采集伙伴</p>
+                    <span>
+                        调研项目涉及30多个市场，样本多行业覆盖：医疗，消费，汽车，金融，教育，旅游……
+                    </span>
+                    <div style="width: 100%;float: left;margin-top: 40px"><img src="images/index_service_p1.png"></div>
+                    <div style="width: 100%;float: left;margin-top: 20px"><img src="images/index_service_jiantou.png">
+                    </div>
+                </div>
+                <div class="data_type_box" style="background-color: #F4F4F4">
+                    <p>提供专业在线问卷系统及编程服务</p>
+                    <span>
+                        题型丰富，逻辑清晰，界面友好，操作便捷，适配多种终端设备
+                    </span>
+                    <div style="width: 100%;float: left;margin-top: 40px"><img src="images/index_service_p2.png"></div>
+                    <div style="width: 100%;float: left;margin-top: 20px"><img src="images/index_service_jiantou.png">
+                    </div>
+                </div>
+                <div class="data_type_box" style="background-color: #fcfcfc">
+                    <p>定制在线调研社区</p>
+                    <span>
+                        在线深度访谈，在线座谈会，在线日志
+                    </span>
+                    <div style="width: 100%;float: left;margin-top: 40px"><img src="images/index_service_p3.png"></div>
+                    <div style="width: 100%;float: left;margin-top: 20px"><img src="images/index_service_jiantou.png">
+                    </div>
+                </div>
+                <div class="data_type_box" style="background-color: #F4F4F4">
+                    <p>招募在线样本</p>
+                    <span>
+                        多年积累的招募经验及各地区互联网市场的深入了解为基础，提供客户所需的招募服务
+                    </span>
+                    <div style="width: 100%;float: left;margin-top: 40px"><img src="images/index_service_p4.png"></div>
+                    <div style="width: 100%;float: left;margin-top: 20px"><img src="images/index_service_jiantou.png">
+                    </div>
+                </div>
+                <div class="data_type_box" style="background-color: #fcfcfc">
+                    <p>游戏试玩 软件测试</p>
+                    <span>
+                        以全球30多个国家会员数据库为基础，提供软件游戏测试、在线众包服务、潜在玩家招募。
+                    </span>
+                    <div style="width: 100%;float: left;margin-top: 40px"><img src="images/index_service_p5.png"></div>
+                    <div style="width: 100%;float: left;margin-top: 20px"><img src="images/index_service_jiantou.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="box-module">
+            <div class="module_view">
+                <div class="module_view_left">
+                    <span class="txt-title">
+                    派诺，<br>多行业覆盖
+                    </span>
+                    <hr style="height: 2px;width: 100px;background-color: #999999;margin-top: 30px;margin-bottom: 40px;">
+                    <span class="txt-content">
+                        派诺在线数据服务业务覆盖<br>
+                        电子消费品、快速消费品、旅游产品、汽车消费、金融、医疗、教育、<br>
+                        母婴、游戏、专业人士、食品、非盈利组织<br>
+                        更多请点击右侧各行业案例详情
+                        </span>
+                </div>
+                <div class="module_view_right">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu1.png" class="module_view_img">
+                                    <p class="module_view_lab">电子消费品</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu2.png" class="module_view_img">
+                                    <p class="module_view_lab">快速消费品</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu3.png" class="module_view_img">
+                                    <p class="module_view_lab">旅游</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu4.png" class="module_view_img">
+                                    <p class="module_view_lab">汽车</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu5.png" class="module_view_img">
+                                    <p class="module_view_lab">金融</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu6.png" class="module_view_img">
+                                    <p class="module_view_lab">医疗</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu7.png" class="module_view_img">
+                                    <p class="module_view_lab">教育</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu8.png" class="module_view_img">
+                                    <p class="module_view_lab">母婴</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu9.png" class="module_view_img">
+                                    <p class="module_view_lab">游戏</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu10.png" class="module_view_img">
+                                    <p class="module_view_lab">专业人士</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu11.png" class="module_view_img">
+                                    <p class="module_view_lab">食品</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="images/kehu/index_kehu12.png" class="module_view_img">
+                                    <p class="module_view_lab">非盈利组织</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="box-foot">
+            <div class="foot_view">
+                <div class="foot_view_top">
+                    <ul class="foot_view_ul">
+                        <li>服务</li>
+                        <li><a href="#">在线数据收集</a></li>
+                        <li><a href="#">在线调查解决方案</a></li>
+                        <li><a href="#">招募服务</a></li>
+                        <li><a href="#">数据平台接口服务</a></li>
+                    </ul>
+                    <ul class="foot_view_ul">
+                        <li>样本库</li>
+                        <li><a href="#">样本分布</a></li>
+                        <li><a href="#">样本定位</a></li>
+                        <li><a href="#">质量控制</a></li>
+                    </ul>
+                    <ul class="foot_view_ul">
+                        <li>案例</li>
+                        <li><a href="#">电子消费品</a></li>
+                        <li><a href="#">快速消费品</a></li>
+                        <li><a href="#">旅游</a></li>
+                        <li><a href="#">更多...</a></li>
+                    </ul>
+                    <ul class="foot_view_ul">
+                        <li>工具</li>
+                        <li><a href="#">编程系统</a></li>
+                        <li><a href="#">在线调研社区</a></li>
+                    </ul>
+                    <ul class="foot_view_ul">
+                        <li>联系</li>
+                        <li><a href="#">我们的团队</a></li>
+                        <li><a href="#">询价咨询</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="foot_view_middle">
+                    <div class="foot_middlel">
+                        <span>商业合作：marketing@paneland.com</span>
+                        <span>更多业务：rfq@paneland.com</span>
+                        <span>加入我们：hr@paneland.com</span>
+                    </div>
+                    <div class="foot_middler">
+                        <img src="images/foot_logo1.jpg" >
+                        <img src="images/foot_logo2.jpg">
+                        <img src="images/foot_logo3.jpg">
+                        <img src="images/foot_logo4.jpg">
+                    </div>
+                </div>
+                <div class="foot_view_bottom" style="padding-top: 20px;padding-bottom: 20px">
+                    <div style="float: left">
+                        <span>Copyright © 2011-2018 Paneland Market Research&Consulting Co.,Ltd. All rights reserved. </span>
+                    </div>
+                    <div style="float: right">
+                        <span>ICP: 12011824-1</span>
+                    </div>
                 </div>
             </div>
         </div>
